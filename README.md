@@ -14,6 +14,20 @@ I then monitored the portfolio as a PE fund would: MOIC per holding, simple vs w
 
 Data Link: https://raw.githubusercontent.com/datasets/s-and-p-500-companies-financials/af7220f04c70c401dff2b8efeb3c7261cae5dcc0/data/constituents-financials.csv.
 
+avg_moic_by_sector.png
+This Chart compares the Average MOIC(Multiple on Invested Capital) across sectors for the selected portfolio.
+
+distance_from_52w_high.png
+This Chart shows the % below which the screened portfolio companies are performing.
+
+ebitda_margin_vs_moic.png
+The scatter plot examines the relationship between EBITDA margin and Multiple on Invested Capital(MOIC) across selected portfolio companies.It helps assess whether companies with stronger operating profitability also demonstrate higher investment multiples
+
+moic_by_company.png
+
+simple_vs_weighted_moic.png
+
+
 # Key Findings:
 Fund-level return: The 14 holdings produced a simple average MOIC of 1.24X and a market-cap-weighted average MOIC of 1.25X.The almost similar returns show the top company's performance made little difference to the overall result.
 Top and Bottom Performers: Paycom led at about 2.1X, followed by Market Axess(1.5X), FactSet(1.44X), and Match Group(1.40X). Wynn, Pentair, Clorox, and Campbell were close to 1.0X. Paycom's result strongly influenced the fund's average.
