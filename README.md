@@ -14,19 +14,35 @@ I then monitored the portfolio as a PE fund would: MOIC per holding, simple vs w
 
 Data Link: https://raw.githubusercontent.com/datasets/s-and-p-500-companies-financials/af7220f04c70c401dff2b8efeb3c7261cae5dcc0/data/constituents-financials.csv.
 
-avg_moic_by_sector.png
-This Chart compares the Average MOIC(Multiple on Invested Capital) across sectors for the selected portfolio.
+### Average MOIC by Sector
 
-distance_from_52w_high.png
-This Chart shows the % below which the screened portfolio companies are performing.
+This chart compares the average Multiple on Invested Capital (MOIC) across sectors for the selected portfolio companies.
 
-ebitda_margin_vs_moic.png
-The scatter plot examines the relationship between EBITDA margin and Multiple on Invested Capital(MOIC) across selected portfolio companies.It helps assess whether companies with stronger operating profitability also demonstrate higher investment multiples
+![Average MOIC by Sector](avg_moic_by_sector.png)
 
-moic_by_company.png
+### Distance from 52-Week High
 
-simple_vs_weighted_moic.png
+This chart shows how far the screened portfolio companies are below their respective 52-week highs.
 
+![Distance from 52-Week High](distance_from_52w_high.png)
+
+### EBITDA Margin vs MOIC
+
+The scatter plot examines the relationship between EBITDA margin and Multiple on Invested Capital (MOIC) across the selected portfolio companies. It helps assess whether companies with stronger operating profitability also demonstrate higher investment multiples.
+
+![EBITDA Margin vs MOIC](ebitda_margin_vs_moic.png)
+
+### MOIC by Company
+
+This chart compares the Multiple on Invested Capital (MOIC) across individual portfolio companies.
+
+![MOIC by Company](moic_by_company.png)
+
+### Simple vs Weighted MOIC
+
+This chart compares the simple average MOIC across portfolio holdings with the market-cap-weighted average MOIC.
+
+![Simple vs Weighted MOIC](simple_vs_weighted_moic.png)
 
 # Key Findings:
 Fund-level return: The 14 holdings produced a simple average MOIC of 1.24X and a market-cap-weighted average MOIC of 1.25X.The almost similar returns show the top company's performance made little difference to the overall result.
